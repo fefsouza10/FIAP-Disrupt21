@@ -1,25 +1,17 @@
-import 'package:MPSP/config/palette.dart';
-import 'package:MPSP/views/signin_view.dart';
+import 'package:Dsrpt21/pages/factoryPage.dart';
+import 'package:Dsrpt21/pages/homePage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 
 void main() {
-  runApp(MyApp());
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Palette.vermelhompsp2,
+  runApp(GetMaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: HomePage(),
+    getPages: [
+      GetPage(name: "/", page: () => HomePage()),
+      GetPage(name: "/factoryPage", page: () => FactoryPage()),
+      //GetPage(name: "/", page: ()=> HomePage()),
+      //GetPage(name: "/", page: ()=> HomePage()),
+    ],
   ));
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        primaryColor: Palette.vermelhompsp,
-        fontFamily: "Montserrat",
-      ),
-      debugShowCheckedModeBanner: false,
-      home: SigninView(),
-    );
-  }
 }

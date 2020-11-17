@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             FlatButton(
-                child: Text("Construir nova remessa",
+                child: Text("CONSTRUIR NOVA REMESSA",
                     style: TextStyle(color: Colors.white)),
                 onPressed: () {
                   Get.toNamed("/factoryPage");

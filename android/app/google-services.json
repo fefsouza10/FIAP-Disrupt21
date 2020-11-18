@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "773459736148",
+    "firebase_url": "https://dsrpt21-103da.firebaseio.com",
+    "project_id": "dsrpt21-103da",
+    "storage_bucket": "dsrpt21-103da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773459736148:android:cf1ca07f2dcd37496c1fc1",
+        "android_client_info": {
+          "package_name": "com.onionrave.Dsrpt21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773459736148-7f5jtmqnjbpmfffnirrm3p2ugpc7vmss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzPYPnKY3Vv8uhAEIw4zTG0gSTjSHs4rI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773459736148-7f5jtmqnjbpmfffnirrm3p2ugpc7vmss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

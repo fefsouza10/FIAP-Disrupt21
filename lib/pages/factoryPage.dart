@@ -1,6 +1,8 @@
 import 'dart:ui';
 
 import 'package:Dsrpt21/controllers/shippingController.dart';
+import 'package:Dsrpt21/pages/productionPage.dart';
+import 'package:Dsrpt21/pages/shippedPage.dart';
 import 'package:Dsrpt21/pages/shippingPage.dart';
 import 'package:Dsrpt21/widgets/robotWidgets.dart';
 import 'package:flutter/material.dart';
@@ -53,8 +55,8 @@ class FactoryPage extends StatelessWidget {
               Flexible(
                   child: TabBarView(children: [
                 ShippingPage(),
-                ShippingPage(),
-                ShippingPage(),
+                ProductionPage(),
+                ShippedPage()
               ]))
             ],
           ),

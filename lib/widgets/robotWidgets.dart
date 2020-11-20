@@ -14,7 +14,7 @@ class RobotIconContainer extends StatelessWidget {
           shape: BoxShape.circle,
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.5),
+              color: Colors.black.withOpacity(0.2),
               spreadRadius: 0.5,
               blurRadius: 10,
               offset: Offset(0, 5),
